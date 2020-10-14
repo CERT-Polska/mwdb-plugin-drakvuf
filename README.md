@@ -1,9 +1,11 @@
 mwdb-drakvuf-plugin
 ===================
 
-[DRAKVUF Sandbox](https://github.com/CERT-Polska/drakvuf-sandbox) integration plugin for [mwdb-core](https://github.com/CERT-Polska/mwdb-core).
+[DRAKVUF Sandbox](https://github.com/CERT-Polska/drakvuf-sandbox) simple integration plugin for [mwdb-core](https://github.com/CERT-Polska/mwdb-core).
 
 You can use this plugin as a template for own webhook integrations with other sandboxes!
+
+![](docs/usage.gif)
 
 Setup & configuration
 ---------------------
