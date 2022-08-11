@@ -2,7 +2,7 @@ import logging
 import requests
 
 from mwdb.core.plugins import PluginAppContext, PluginHookHandler
-from mwdb.model import db, File, MetakeyDefinition
+from mwdb.model import db, File, AttributeDefinition
 
 from .config import config
 
@@ -52,7 +52,7 @@ def configure():
     This will be called by 'mwdb configure' command.
     """
     logger.info("Configuring 'drakvuf' attribute key.")
-    attribute = MetakeyDefinition(key="drakvuf",
+    attribute = AttributeDefinition(key="drakvuf",
                                   url_template=f"{config.drakvuf.drakvuf_url}/progress/$value",
                                   label="Drakvuf analysis",
                                   description="Reference to the Drakvuf analysis for file")
